@@ -1,0 +1,35 @@
+{
+  "name": "Agenda Tangululu",
+  "short_name": "Tangululu",
+  "description": "Un solo calendario para los dos. Lo que uno escribe aparece al instante en el teléfono del otro.",
+  "id": "/Tangululu/",
+  "start_url": "/Tangululu/",
+  "scope": "/Tangululu/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait-primary",
+  "background_color": "#221b2d",
+  "theme_color": "#221b2d",
+  "lang": "es",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
